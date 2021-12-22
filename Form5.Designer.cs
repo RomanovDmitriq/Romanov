@@ -49,6 +49,7 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -58,7 +59,6 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -247,11 +247,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(196, 136);
+            this.label2.Location = new System.Drawing.Point(142, 138);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 22);
+            this.label2.Size = new System.Drawing.Size(149, 22);
             this.label2.TabIndex = 11;
-            this.label2.Text = "ID клиента";
+            this.label2.Text = "Фамилия клиента ";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox6
@@ -316,6 +316,19 @@
             this.panel1.Size = new System.Drawing.Size(899, 533);
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(617, 477);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(115, 29);
+            this.button5.TabIndex = 43;
+            this.button5.Text = "Отчёт продаж";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // comboBox3
             // 
@@ -401,19 +414,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Оформление билетов на самолёт";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(617, 477);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(115, 29);
-            this.button5.TabIndex = 43;
-            this.button5.Text = "Отчёт продаж";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form5
             // 
