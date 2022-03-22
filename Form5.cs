@@ -466,11 +466,7 @@ namespace PraktikaRomanov
             comboBox3.Text = Статус;
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form8 forma = new Form8();
-            forma.Show();
-        }
+
+
     }
 }

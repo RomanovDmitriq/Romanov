@@ -9,7 +9,7 @@ namespace PraktikaRomanov
 {
     class DB
     {
-        MySqlConnection Connection = new MySqlConnection("server=localhost;port=3306;username=root;password=12345;database=roman");
+        MySqlConnection Connection = new MySqlConnection("server=localhost;port=3306;username=root;password=12345;database=roma");
 
         public void openConnection()
         {

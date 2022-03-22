@@ -113,9 +113,9 @@
             this.button4.BackColor = System.Drawing.Color.White;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(20, 397);
+            this.button4.Location = new System.Drawing.Point(20, 396);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(199, 22);
+            this.button4.Size = new System.Drawing.Size(199, 23);
             this.button4.TabIndex = 22;
             this.button4.Text = "Вернуться на прошлую страницу";
             this.button4.UseVisualStyleBackColor = false;
